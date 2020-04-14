@@ -10,6 +10,7 @@ exclude: [
   package.json,
   package-lock.json,
   postcss.config.js,
+  tailwind.config.js,
   readme.md,
-  assets/tailwind.config.css
+  assets/css/tailwind.config.css
 ]

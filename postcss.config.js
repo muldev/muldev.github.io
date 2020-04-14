@@ -21,7 +21,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
 module.exports = ctx => ({
     plugins: [
-        require('tailwindcss'),
+        require('tailwindcss')('tailwind.config.js'),
         require('autoprefixer'),
         ...ctx.env === 'production' ? [purgecss, cssnano] : [],
     ]
