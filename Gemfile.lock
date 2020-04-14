@@ -66,6 +66,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  eventmachine
   jekyll
   jekyll-seo-tag
 
