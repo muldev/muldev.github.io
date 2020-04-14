@@ -13,8 +13,9 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 ## Install
 
-- [Download Ruby](https://www.ruby-lang.org/en/downloads/)
-- [Download NPM](https://www.npmjs.com/get-npm)
+- [Install Ruby](https://www.ruby-lang.org/en/downloads/)
+- [Install NPM](https://www.npmjs.com/get-npm)
+- Install Bundler `$ gem install bundler`
 - Run `$ npm run setup` to setup the project.
 
 ---
