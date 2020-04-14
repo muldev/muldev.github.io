@@ -13,7 +13,8 @@ exclude: [
   tailwind.config.js,
   readme.md,
   assets/css/tailwind.config.css,
-  assets/css/tailwind.css
+  assets/css/tailwind.css,
+  LICENSE
 ]
 
 # Using Jekyll Compress:
