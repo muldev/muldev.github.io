@@ -6,6 +6,7 @@
         "setup": "bundle install && npm i && npm i postcss-cli -g",
         "build": "npm run css:rel && bundle exec jekyll build",
         "dev": "npm run css:dev && bundle exec jekyll serve",
+        "dev-lr": "npm run css:dev && bundle exec jekyll serve --livereload",
         "rel": "npm run css:rel",
         "css:dev": "postcss assets/css/tailwind.config.css -o assets/css/styles.css",
         "css:rel": "npm run css:dev -- --env production"
