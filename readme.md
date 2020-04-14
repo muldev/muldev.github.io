@@ -25,7 +25,7 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 ### 🍕 Development
 
 ```$ npm run dev```
-```$ npm run dev-lr``` (if you want to use Jekyll's LiveReload option. [Chrome Extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) needed.)
+```$ npm run dev-l``` (_Optional: [LiveReload Chrome Extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)_)
 
 - Generates _all_ Tailwind CSS classes so you can develop without regenerating them.
 - Runs the Jekyll watcher which regenerates the site when files are modified.
