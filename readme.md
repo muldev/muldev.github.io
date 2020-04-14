@@ -30,7 +30,7 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 - Generates _all_ Tailwind CSS classes so you can develop without regenerating them.
 - Runs the Jekyll watcher which regenerates the site when files are modified.
 
-*Note that the `tailwind.generated.css` file will show changes in git. Ensure to run the release command before committing so that you only commit necessary CSS changes.*
+*Note that the generated `styles.css` file will show changes in git. Ensure to run the release command before committing so that you only commit necessary CSS changes. If you depend on a build process on your server (e.g. Netlify), you do NOT need to commit this.*
 
 
 ### 💻 Release
