@@ -2,7 +2,7 @@
 
 WIP . . .
 
-<img src="https://github.com/muldev/muldev.github.io/blob/88c4d01dcf3da81a2d367e8273ddcb5731bbf05c/muldev%20banner.png" style="width: 100px; height: auto;">
+<img src="https://github.com/muldev/muldev.github.io/blob/88c4d01dcf3da81a2d367e8273ddcb5731bbf05c/muldev%20banner.png" style="width: 400px; height: auto;">
 
 You can use the [editor on GitHub](https://github.com/muldev/muldev.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
