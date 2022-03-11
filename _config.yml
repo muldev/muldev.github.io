@@ -1,7 +1,10 @@
 google_analytics:
 
-title: Your site title
-description: Your site description
+title: muldev.com
+email: simon@muldev.com
+description: Developers for the modern web
+author: Simon Assouline
+url: https://muldev.com
 
 plugins:
   - jekyll-seo-tag
