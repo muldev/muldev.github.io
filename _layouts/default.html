@@ -10,11 +10,35 @@ layout: compress
 </head>
 
 <body>
-    <nav class="flex flex-col w-full h-20 bg-gray-900">
-        Navigation
+<main>
+
+    <nav class="flex w-screen h-32 inset-0 bg-gray-900">
+        <!-- Nav start -->
+        <section id="nav_logo" class="flex flex-none w-32 px-2 items-center justify-center h-full">
+            <img src="/assets/img/muldev-logo.svg" alt="muldev.com" class="h-full">
+        </section> <!-- Nav start -->
+
+        <!-- Nav Menus -->
+        <section id="nav_menus" class="flex flex-grow flex-start text-white px-3 h-full items-center">
+            <a href="#" class="px-4 text-2xl text-indigo-300 hover:text-green-300">Home</a>
+            <a href="#" class="menu-item">About</a>
+        </section><!-- Nav Menus -->
+
+        <!-- Nav End -->
+        <section id="nav_end" class="flex flex-none w-32 text-white px-2 justify-center items-center h-16 mx-4">
+            <a href="#"><img src="/assets/img/default.png" alt="User" class="h-16 w-auto"></a>
+        </section> <!-- Nav End -->
+
+         Navigation
     </nav>
+    <h1> {{ page.title }}</h1>
     {{ content }}
     {% include scripts.html %}
+<footer>
+    footer
+
+</footer>
+</main>
 </body>
 
 </html>

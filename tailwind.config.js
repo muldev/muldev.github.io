@@ -22,6 +22,8 @@ module.exports = {
     }
   },
   variants: {
-    opacity: ['responsive', 'hover']
+    opacity: ['responsive', 'hover'],
+    width: ["responsive", "hover", "focus"],
+    height: ["responsive", "hover", "focus"],
   }
 }

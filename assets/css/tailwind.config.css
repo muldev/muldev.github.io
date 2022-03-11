@@ -15,3 +15,9 @@
 */
 
 @tailwind utilities;
+
+h1 { @apply text-5xl }
+
+.test { @apply flex w-full h-20 bg-blue-400 text-5xl}
+
+.menu-item { @apply px-4 text-2xl text-indigo-300 hover:text-green-300 }
