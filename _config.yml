@@ -1,1 +1,33 @@
-theme: jekyll-theme-slate
+google_analytics:
+
+title: muldev.com
+email: simon@muldev.com
+description: Developers for the modern web
+author: Simon Assouline
+url: https://muldev.com
+
+plugins:
+  - jekyll-seo-tag
+
+exclude: [
+    package.json,
+    package-lock.json,
+    postcss.config.js,
+    tailwind.config.js,
+    readme.md,
+    assets/css/tailwind.config.css,
+    assets/css/tailwind.css,
+    LICENSE
+]
+
+# Using Jekyll Compress:
+# http://jch.penibelst.de/
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
