@@ -5,8 +5,11 @@ email: simon@muldev.com
 description: Developers for the modern web
 author: Simon Assouline
 url: https://muldev.com
+github_username: muldev
+future: true
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
 
 exclude: [

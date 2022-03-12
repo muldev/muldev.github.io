@@ -17,7 +17,14 @@
 @tailwind utilities;
 
 h1 { @apply text-5xl }
+h2 { @apply text-3xl text-blue-900}
 
 .test { @apply flex w-full h-20 bg-blue-400 text-5xl}
+
+.nav { @apply flex w-screen h-52 inset-0 bg-gray-900 items-center }
+.nav-logo { @apply flex flex-none w-52 px-2 items-center justify-center }
+.nav-menus { @apply flex flex-grow text-white px-3 h-full items-end mb-4 }
+.logo { @apply h-52 }
+.avatar { @apply h-16 w-auto }
 
 .menu-item { @apply px-4 text-2xl text-indigo-300 hover:text-green-300 }

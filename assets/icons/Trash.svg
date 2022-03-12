@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 97 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Trash">
+        <circle cx="48.786" cy="48.575" r="48" style="fill:rgb(255,59,48);"/>
+        <path d="M56.786,30.575c0,-2.21 -1.79,-4 -4,-4l-8,-0c-2.209,-0 -4,1.79 -4,4l-6,-0c-1.104,-0 -2,0.895 -2,2l32,-0c0,-1.105 -0.895,-2 -2,-2l-6,-0Zm-22.105,3.841l28.141,-0l-1.404,33.639c-0,-0 -0.53,2.52 -2.527,2.52l-20.211,-0c-1.996,-0 -2.526,-2.52 -2.526,-2.52l-1.473,-33.639Zm21.905,4.159l-2,-0l-1,28.875l2,-0l1,-28.875Zm-12.8,28.875l-0.999,-28.875l-2.001,-0l1,28.875l2,-0Zm4,-28.875l0,28.875l2,-0l0,-28.875l-2,-0Z" style="fill:white;"/>
+    </g>
+</svg>

@@ -1,6 +1,12 @@
 // tailwind.config.js
 // https://tailwindcss.com/docs/configuration/
 module.exports = {
+  content: [
+    './_includes/**/*.{html,js,md,markdown}',
+    './_layouts/**/*.{html,js,md,markdown}',
+    './_posts/*.markdown',
+    './*.{html,js,md,markdown}',
+  ],
   theme: {
     screens: {
       sm: '640px',
@@ -23,7 +29,7 @@ module.exports = {
   },
   variants: {
     opacity: ['responsive', 'hover'],
-    width: ["responsive", "hover", "focus"],
-    height: ["responsive", "hover", "focus"],
+    // width: ["responsive", "hover", "focus"],
+    // height: ["responsive", "hover", "focus"],
   }
 }

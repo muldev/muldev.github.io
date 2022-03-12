@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Home | muldev.com"
+layout: home
+title: "Home"
 date: 2022-03-12
 categories: pages
 ---
@@ -8,10 +8,7 @@ categories: pages
 ## Welcome to muldev Page
 <article>
 
-
 test
-
-<img src="muldev banner.png" style="width: 400px; height: auto;">
 
 You can use the [editor on GitHub](https://github.com/muldev/muldev.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
