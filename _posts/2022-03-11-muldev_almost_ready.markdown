@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: post
 title:  "muldev.com almost ready!"
-date:   2022-03-12 13:30:08 +1100
+description: "muldev.com website almost ready for action"
+date: 2022-03-12 13:30:08
 categories: muldev update
 ---
 

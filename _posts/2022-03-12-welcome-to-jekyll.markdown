@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: post
 title:  "Welcome to muldev!"
+description: "Introduction"
 date:   2022-03-12 13:30:08 +1100
 categories: muldev update
 ---
