@@ -10,20 +10,27 @@ layout: compress
 </head>
 
 <body>
-<main class="flex flex-col relative flex-grow min-h-screen">
+<main class="flex flex-col relative flex-grow min-h-screen items-center">
         {% include nav.html %}
 
-        <article class="flex flex-col flex-grow w-screen px-10">
-            <div class="flex w-screen">
+        <article class="flex flex-col flex-grow w-2/3 bg-slate-100 m-4 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900">
 
-                <section class="my-10 px-10">
-                    <h1>Posts</h1>
-                    {% for post in site.posts %}
-                        <p class="border-2 p-2 border-solid border-slate-700"><a href="{{ post.url }}">{{ post.title }}<br></a> {{ post.description }}</p>
-                    {% endfor %}
+                <section class="my-10 mx-4">
+                    <h1 class="my-2">Posts</h1>
+                    <div class="flex grid-cols-3">
+                        {% for post in site.posts %}
+                            <div class="border-2 p-2 mr-2 border-solid border-slate-700 hover:bg-green-100 hover:cursor-pointer" onclick="window.location = '{{ post.url }}';">
+                                <h3>{{ post.title }}</h3>
+                                <span class="text-gray-800 text-lg">{{ post.description }}</span><br>
+                                <span class="text-orange-600 text-xs">{{ post.date | date: "%-d %B %Y" }}  </span>
+
+
+                            </div>
+                        {% endfor %}
+                    </div>
                 </section>
 
-            </div>
+
             <div>
                 {{ content }}
             </div>
