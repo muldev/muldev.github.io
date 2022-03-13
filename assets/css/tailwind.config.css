@@ -22,10 +22,11 @@ a:link { @apply font-bold text-lg text-indigo-300}
 h1 { @apply text-5xl }
 h2 { @apply text-3xl text-blue-900}
 
-.nav { @apply flex w-screen h-52 inset-0 bg-gray-900 items-center }
-.nav-logo { @apply flex flex-none w-64 px-2 items-center justify-center }
+.nav { @apply flex w-screen h-52 inset-0 bg-gray-900 items-center}
+.nav-logo { @apply flex flex-none w-64 h-64 items-center justify-center }
 .nav-menus { @apply flex flex-grow text-white px-3 h-full items-end mb-4 }
-.logo { @apply h-64 }
-.avatar { @apply h-16 w-auto }
+.nav-end { @apply top-0}
+.logo { @apply h-60 w-auto }
+.avatar { @apply h-12 w-auto }
 
 .menu-item { @apply px-4 text-2xl text-indigo-300 hover:text-green-300 }

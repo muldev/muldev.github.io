@@ -10,8 +10,7 @@ layout: compress
 </head>
 
 <body>
-<main>
-    <div id="wrapper" class="flex flex-col min-h-screen min-w-full">
+<main class="flex flex-col relative flex-grow min-h-screen">
         {% include nav.html %}
 
         <article class="flex flex-col flex-grow w-screen px-10">
@@ -33,7 +32,7 @@ layout: compress
         <footer class="flex w-screen h-16 left-0 bg-gray-900 items-center">
             footer
         </footer>
-    </div>
+
 </main>
 {% include scripts.html %}
 </body>
