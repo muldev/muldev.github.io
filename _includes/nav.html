@@ -14,8 +14,9 @@
                 <div class="py-2 h-10">
                     <img src="/assets/img/muldev.png" alt="muldev.com" class="h-8 w-auto"> <!-- Height 40px -->
                 </div>
-                <div class="flex flex-col h-40 items-start justify-end bottom-0"> <!-- Height 160px -->
-                    <p class="my-3 text-xl text-blue-500">{% include tick.html %} Blogs with tutorials for Developers</span></p>
+                <div class="flex flex-col h-40 items-start justify-end bottom-0 flex-nowrap whitespace-nowrap"> <!-- Height 160px -->
+                    <p class="my-3 text-xl text-amber-700">{{ page.title }}</p>
+                    <p class="my-3 text-xl text-blue-500">{% include tick.html %} Blogs with tutorials for Developers</p>
                     <p class="my-3 text-xl text-blue-500">{% include tick.html %} Free quotes for modern web designing</p>
                 </div>
             </div>
@@ -34,5 +35,4 @@
         <a href="#"><img src="/assets/img/default.png" alt="User" class="avatar"></a>
     </section> <!-- Nav End -->
 
-    Navigation
 </nav>

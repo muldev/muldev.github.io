@@ -1,0 +1,30 @@
+---
+layout: about
+title: "Infusing coding languages into a work of art."
+date: 2022-03-12
+categories: pages
+---
+
+
+muldev infuses html, JavaScript, PHP and various other coding languages into a work of art, 
+powering your website with modern web technology.
+
+Why step away from self-serve automated web design ?
+Your opportunity to draw in a potential customer relies on your website to appeal to them within roughly 15 seconds. If not they could lose focus and move onto another website that triggers their interest.
+
+So what's the first thing that comes to mind ?
+Well imagine that you’re the 3rd website they are browsing and you look and feel exactly like the last two, it's likely they might move on before reading any further.
+
+A custom website made by a professional team will ensure a touch of unique design that will spark appeal and IMPACT on how your visitors will grasp their interest. They are more likely to start interacting with an interesting design they've never seen, than a typical self-made boring website.
+
+Is that the only benefit ?
+No, many self-served web designs lack articulation when designing forms. They become either too complex or impossible to work with. While a simple contact form should be easy to build, as soon as you want to introduce something the automated system is not accustomed to it breaks, sometimes leaving your website vulnerable to attacks because you found a work around to make it work.
+
+How do I know if I should design my own or use a professional team ?
+Good question :)
+run this test below. We don't need your contact details, you can run it safely without us needing to track your progress, The questionnaire will try to determine which is best for you, depending on your needs.
+An example would be a couple of pages to advertise your business name does not need a custom built  website, unless of course you wanted to stand out.
+
+At the end the questionnaire will calculate a price estimate, which you can print to compare quotes, once again there is no obligation to register your details with us. We do not use annoying popups or trackers, personally I find them intrusive. 
+	
+We have blog pages about several topics that you can read through, some could help with planning a strategy for your own website.

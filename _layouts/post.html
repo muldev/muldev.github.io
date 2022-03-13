@@ -6,19 +6,19 @@
 </head>
 
 <body>
-<main>
-    <div id="wrapper" class="flex flex-col min-h-screen min-w-full">
-        {% include nav.html %}
+<main class="flex flex-col relative flex-grow min-h-screen items-center">
+    {% include nav.html %}
 
-        <article class="flex flex-col flex-grow w-screen px-10">
-            <div>
+    <article class="flex flex-col flex-grow w-2/3 bg-slate-100 m-4 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900">
+            <section class="m-6">
                 {{ content }}
-            </div>
+            </section>
         </article>
-        <footer class="flex w-screen h-16 left-0 bg-gray-900 items-center">
-            footer
-        </footer>
-    </div>
+
+    <footer class="flex w-screen h-16 left-0 bg-gray-900 items-center">
+        footer
+    </footer>
+
 </main>
 {% include scripts.html %}
 </body>

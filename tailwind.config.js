@@ -10,9 +10,9 @@ module.exports = {
   theme: {
     screens: {
       sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      md: '960px',
+      lg: '1440px',
+      xl: '1800px',
     },
     fontFamily: {
       body: ['system', '-apple-system','San Francisco', 'Roboto', 'Segoe UI', 'sans-serif'],

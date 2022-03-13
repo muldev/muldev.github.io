@@ -16,12 +16,14 @@
 
 @tailwind utilities;
 
-p { @apply leading-normal text-base font-medium leading-relaxed my-4 text-slate-800}
+body { @apply text-blue-100}
+p { @apply text-base  my-4 text-blue-100}
 a:link { @apply font-bold text-lg text-indigo-300}
 
-h1 { @apply text-5xl }
-h2 { @apply text-3xl text-blue-900}
-h3 { @apply text-xl font-bold text-indigo-600}
+h1 { @apply text-4xl text-blue-400 }
+h2 { @apply text-3xl text-blue-400}
+h3 { @apply text-xl font-bold text-indigo-400}
+blockquote { @apply border-2 m-6 border-l-slate-400 border-t-slate-400 border-b-gray-500 border-r-gray-500 p-4}
 
 .nav { @apply flex w-screen h-52 inset-0 bg-gray-900 items-center}
 .nav-logo { @apply flex flex-none w-64 h-64 items-center justify-center }
