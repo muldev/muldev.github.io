@@ -5,11 +5,13 @@
     {% include head.html %}
 </head>
 
-<body>
-<main class="flex flex-col relative flex-grow min-h-full items-center bg-slate-600">
+<body class="bg-slate-600">
+<main class="flex flex-col relative flex-grow items-center">
     {% include nav.html %}
 
-    <article class="flex flex-col flex-grow absolute top-72 w-2/3 bg-slate-100 mt-4 mb-64 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900 bg-slate-800">
+    <section id="wrapper" class="flex flex-grow w-2/3 absolute top-72 pb-72 w-screen">
+
+    <article class="flex flex-col bg-slate-100 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900 bg-slate-800">
 
         <section class="mx-5 mt-4">
             {{ content }}
