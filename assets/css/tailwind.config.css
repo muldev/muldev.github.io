@@ -17,7 +17,7 @@
 @tailwind utilities;
 
 body { @apply text-blue-100}
-p { @apply text-base  my-4 text-blue-100}
+p { @apply text-base  my-4 text-blue-100 leading-relaxed}
 a:link { @apply font-bold text-lg text-indigo-300}
 
 h1 { @apply text-4xl text-blue-400 }
