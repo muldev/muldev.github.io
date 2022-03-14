@@ -2,43 +2,6 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
-<html lang='{{ site.lang | default: "en-us" }}'>
+{% include default_top_section %}
 
-<head>
-    {% include head.html %}
-</head>
 
-<body>
-<main>
-
-    <nav class="nav">
-        <!-- Nav start -->
-        <section id="nav_logo" class="nav-logo">
-            <img src="/assets/img/muldev-logo.svg" alt="muldev.com" class="logo">
-        </section> <!-- Nav start -->
-
-        <!-- Nav Menus -->
-        <section id="nav_menus" class="nav-menus">
-            <a href="#" class="menu-item">Home</a>
-            <a href="#" class="menu-item">About</a>
-        </section><!-- Nav Menus -->
-
-        <!-- Nav End -->
-        <section id="nav_end" class="flex flex-none w-32 text-white px-2 justify-center items-center h-16 mx-4">
-            <a href="#"><img src="/assets/img/default.png" alt="User" class="avatar"></a>
-        </section> <!-- Nav End -->
-
-         Navigation
-    </nav>
-    <h1> {{ page.title }}</h1>
-    {{ content }}
-    {% include scripts.html %}
-<footer>
-    footer
-
-</footer>
-</main>
-</body>
-
-</html>

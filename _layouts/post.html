@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang='{{ site.lang | default: "en-us" }}'>
+{% include default_top_section.html %}
 
-<head>
-    {% include head.html %}
-</head>
 
-<body>
-<main class="flex flex-col relative flex-grow min-h-screen items-center">
-    {% include nav.html %}
-
-    <article class="flex flex-col flex-grow w-2/3 bg-slate-100 m-4 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900">
-            <section class="m-6">
-                {{ content }}
-            </section>
-        </article>
-
-    <footer class="flex w-screen h-16 left-0 bg-gray-900 items-center">
-        footer
-    </footer>
-
-</main>
-{% include scripts.html %}
-</body>
-
-</html>
+{% include default_bottom_section.html %}

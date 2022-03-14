@@ -1,0 +1,12 @@
+<section class="my-10 mx-4">
+    <h2 class="pb-4">Posts</h2>
+    <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 ">
+        {% for post in site.posts %}
+        <div class="border-2 p-2 mr-2 border-solid border-slate-700 hover:text-slate-400 hover:bg-green-100 hover:cursor-pointer" onclick="window.location = '{{ post.url }}';">
+            <h3>{{ post.title }}</h3>
+            <span class="text-stone-200 text-lg">{{ post.description }}</span><br>
+            <span class="text-amber-500 text-xs font-bold">{{ post.date | date: "%-d %B %Y" }}  </span>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,47 +1,20 @@
 ---
 layout: compress
 ---
+{% include default_top_section.html %}
 
-<!DOCTYPE html>
-<html lang='{{ site.lang | default: "en-us" }}'>
+<section class="my-10 mx-4">
+    <h2 class="pb-4">Posts</h2>
+    <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 ">
+        {% for post in site.posts %}
+        <div class="border-2 p-2 mr-2 border-solid border-slate-700 text-stone-200 hover:text-neutral-900 hover:bg-green-100 hover:cursor-pointer" onclick="window.location = '{{ post.url }}';">
+            <h3>{{ post.title }}</h3>
+            <span class="text-lg">{{ post.description }}</span><br>
+            <span class="text-amber-500 text-xs font-bold">{{ post.date | date: "%-d %B %Y" }}  </span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
 
-<head>
-    {% include head.html %}
-</head>
+{% include default_bottom_section.html %}
 
-<body>
-<main class="flex flex-col relative flex-grow min-h-screen items-center bg-slate-600">
-        {% include nav.html %}
-
-        <article class="flex flex-col flex-grow w-2/3 bg-slate-100 m-4 shadow-2xl shadow-neutral-800 border-b-2 border-amber-900 bg-slate-800">
-
-            <section class="mx-5 mt-4">
-                {{ content }}
-            </section>
-
-                <section class="my-10 mx-4">
-                    <h2 class="pb-4">Posts</h2>
-                    <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 ">
-                        {% for post in site.posts %}
-                            <div class="border-2 p-2 mr-2 border-solid border-slate-700 hover:text-slate-400 hover:bg-green-100 hover:cursor-pointer" onclick="window.location = '{{ post.url }}';">
-                                <h3>{{ post.title }}</h3>
-                                <span class="text-stone-200 text-lg">{{ post.description }}</span><br>
-                                <span class="text-amber-500 text-xs font-bold">{{ post.date | date: "%-d %B %Y" }}  </span>
-                            </div>
-                        {% endfor %}
-                    </div>
-                </section>
-
-
-
-
-        </article>
-        <footer class="flex w-screen h-16 left-0 bg-gray-900 items-center">
-            footer
-        </footer>
-
-</main>
-{% include scripts.html %}
-</body>
-
-</html>
