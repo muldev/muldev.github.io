@@ -683,6 +683,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
+.border-l-ozgreen {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(0 132 61 / var(--tw-border-opacity));
+}
+
+.border-t-ozgreen {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(0 132 61 / var(--tw-border-opacity));
+}
+
+.border-b-ozgold {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 205 0 / var(--tw-border-opacity));
+}
+
+.border-r-ozgold {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(255 205 0 / var(--tw-border-opacity));
+}
+
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -703,6 +723,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+}
+
+.bg-stone-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -719,6 +753,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-72 {
   padding-bottom: 18rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .pt-2 {
@@ -755,6 +793,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-ozgreen {
+  --tw-text-opacity: 1;
+  color: rgb(0 132 61 / var(--tw-text-opacity));
+}
+
+.text-ozgold {
+  --tw-text-opacity: 1;
+  color: rgb(255 205 0 / var(--tw-text-opacity));
+}
+
+.text-fuchsia-200 {
+  --tw-text-opacity: 1;
+  color: rgb(245 208 254 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -839,6 +892,17 @@ h3 {
   color: rgb(129 140 248 / var(--tw-text-opacity));
 }
 blockquote {
+  margin: 1.5rem;
+  border-width: 2px;
+  border-left-color: rgb(148 163 184 / var(--tw-border-opacity));
+  border-top-color: rgb(148 163 184 / var(--tw-border-opacity));
+  border-bottom-color: rgb(107 114 128 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  border-right-color: rgb(107 114 128 / var(--tw-border-opacity));
+  padding: 1rem;
+}
+
+.framed {
   margin: 1.5rem;
   border-width: 2px;
   border-left-color: rgb(148 163 184 / var(--tw-border-opacity));

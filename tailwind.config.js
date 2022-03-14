@@ -20,6 +20,8 @@ module.exports = {
     extend: {
       colors: {
         cyan: '#9cdbff',
+        ozgreen: '#00843D',
+        ozgold: '#FFCD00',
       },
       margin: {
         '96': '24rem',
