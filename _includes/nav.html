@@ -1,4 +1,4 @@
-<nav class="flex w-screen h-64 inset-0 bg-gray-900"> <!-- Height 256px -->
+<nav class="flex fixed w-screen h-64 inset-0 bg-gray-900 z-50"> <!-- Height 256px -->
     <!-- Nav start -->
     <section id="nav_logo" class="nav-logo">
         <img src="/assets/img/muldev-logo-transparent.svg" alt="muldev.com" class="logo">
@@ -23,9 +23,8 @@
             <div id="nav_menu_bottom" class="text-pink-500 h-10 pt-2"> <!-- Height 64px  -->
                 <a href="{% link index.md %}" class="menu-item">Home</a>
                 <a href="" class="menu-item">Showcase</a>
-                <a href="{% link about/index.html %}" class="menu-item">About</a>
                 <a href="{% link blogs/index.html %}" class="menu-item">Blogs</a>
-
+                <a href="{% link about/index.html %}" class="menu-item">About</a>
             </div>
         </div>
     </section><!-- Nav Menus -->
