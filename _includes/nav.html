@@ -1,4 +1,4 @@
-<nav class="flex fixed w-screen h-64 inset-0 bg-gray-900 z-50"> <!-- Height 256px -->
+<nav class="flex fixed w-screen h-64 inset-0 bg-gray-900 -skew-y-6 z-50"> <!-- Height 256px -->
     <!-- Nav start -->
     <section id="nav_logo" class="nav-logo">
         <img src="/assets/img/muldev-logo-transparent.svg" alt="muldev.com" class="logo">
@@ -13,11 +13,13 @@
             <div id="nav_menu_top" class="h-52"> <!-- Height 192px -->
                 <div class="py-2 h-10">
                     <img src="/assets/img/muldev.png" alt="muldev.com" class="h-8 w-auto"> <!-- Height 40px -->
+                    <div class="my-3 text-xl text-amber-700">{{ page.title }}</div>
                 </div>
-                <div class="flex flex-col h-40 items-start justify-end bottom-0 flex-nowrap whitespace-nowrap"> <!-- Height 160px -->
-                    <p class="my-3 text-xl text-amber-700">{{ page.title }}</p>
-                    <p class="my-3 text-xl text-blue-500">{% include tick.html %} Blogs with tutorials for Developers</p>
-                    <p class="my-3 text-xl text-blue-500">{% include tick.html %} Free quotes for modern web designing</p>
+                <div class="flex flex-col h-40 items-center justify-center justify-items-center flex-nowrap whitespace-nowrap"> <!-- Height 160px -->
+                    <div class="flex w-full justify-center justify-items-center">
+                        <p class="my-3 px-4 text-xl text-blue-500">{% include tick.html %} Blogs with tutorials for Developers</p>
+                        <p class="my-3 text-xl text-blue-500">{% include tick.html %} Free quotes for modern web designing</p>
+                    </div>
                 </div>
             </div>
             <div id="nav_menu_bottom" class="text-pink-500 h-10 pt-2"> <!-- Height 64px  -->

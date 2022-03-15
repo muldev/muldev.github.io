@@ -1,23 +1,23 @@
-<section class="grid grid-cols-1 gap-4 mx-6">
+<section class="grid grid-cols-1 gap-4 mx-6 items-center justify-items-center">
     <h1>About myself</h1>
-    <div>
+    <div class="lg:w-2/3 md:w-4/5">
         <p>I have been involved with the IT industry between 1978 to present</p>
         <p>My initial experience with IT was in Sydney Broadway (UTS - University of Technology Sydney), where I studied computer science.</p>
-        <div class="flex items-center justify-items-center">
-            <img src="/assets/img/punch-cards.jpg" alt="punch cards" class="w-1/3 inline-block mr-4 align-top border-2 p-2">
+        <div class="lg:flex items-center justify-items-center">
+            <img src="/assets/img/punch-cards.jpg" alt="punch cards" class="sm:w-1/2 lg:w-1/3 mr-4 align-top border-2 p-2">
             <div>
                 <h2 class="">1979 to 1982</h2>
-                <p class="text-lg md:text-sm lg:text-lg">
-                I had a glimpse of the computer industry without a monitor. My programming had to be done using punch cards for the first few months and the results would be printed.
+                <p class="md:text-sm lg:text-lg">
+                I had a glimpse of the computer industry that had no monitors, just printers. My programming had to be done using punch cards for the first few months and the results would be printed.
                 Can you imagine debugging that !?<span class="text-2xl">🤯</span>
                 </p>
             </div>
         </div>
     </div>
 
-    <div>
+    <div class="w-2/3">
         <p>While I was learning computer science which included programming languages like COBOL and Fortran, it occurred to me that Australia was slightly behind in software technology.</p>
-        <p>So I purchased some books and videos from America to learn C and C++, while Australian were still mostly using COBOL. This lead to a fairly successful career in IT.</p>
+        <p>So I purchased some books and videos from America to learn C and C++, meanwhile Australian's were still mostly using COBOL. This lead to a fairly successful career in IT.</p>
         <div class="flex items-center justify-items-center">
             <img src="/assets/img/bm_px_xt_color.jpg" alt="XT computer" class="w-1/3 inline-block mr-4 align-top border-2 p-2">
             <div>
@@ -30,18 +30,31 @@
         <div>
             <h3 class="my-2">This included but not limited to:</h3>
             <ul class="list-disc ml-8">
-                <li>Network installation from peer-to-peer to Token Ring and later dropped it because the standards manual became huge (for a cable!).</li>
-                <li>Building computers</li>
-                <li>Software Development, especially custom accounting software before the days of MYOB and the such.</li>
-                <li>Developing BOM (Bill of Materials) software for manufacturers</li>
-                <li>Bulletin Board System Software (BBS), back in the snail mail era. This included having my own and been a **sysop** :)</li>
-                <li>and then came the internet, a whole new learning curve.</li>
+                <li class="my-2">Network installation from peer-to-peer to Token Ring and later dropped it because the standards manual became huge (for a cable! 🤷‍♂️).</li>
+                <li class="my-2">Building computers</li>
+                <li class="my-2">Software Development, especially custom accounting software before the days of MYOB and the such.</li>
+                <li class="my-2">Developing BOM (Bill of Materials) software for manufacturers</li>
+                <li class="my-2">Bulletin Board System Software (BBS), back in the snail mail era. This included having my own and been a **sysop** 👀</li>
+                <li class="my-2">and then came the internet, a whole new learning curve.</li>
             </ul>
             <p>
-                Basically I started in computers in 1978, later to learn at UTS using punch cards to programme COBOL, because there were no monitors, to today, where a computer and monitor can carried in your hand, in the form of a mobile 😜
+                To summarize,  I started in computers in 1978, later to learn at UTS using punch cards to programme COBOL, because there were no monitors. Today a computer and monitor can be carried in your hand, in the form of a mobile 😜
             </p>
 
-
+            <div class="framed bg-stone-700 text-xl">Presently I develop and design websites only. I have a team of freelance developers that help out with larger projects.
+                I mainly work with PHP and use a framework called
+                <a href="https://laravel.com/" target="_blank">
+                    <img src="/assets/img/laravel_mark.svg" alt="Laravel" class="h-4 inline-block"> <img src="/assets/img/laravel.svg" alt="Laravel" class="h-4 inline-block">.
+                </a>
+                <p>along with every site is testing procedures ensuring both Developer and Business understand each procedural outcome.</p>
+                <ul class="list-disc ml-8">
+                    <li class="py-2">BDD (Behaviour Driven Development). Using Gherkin to communicate between Developer and a business</li>
+                    <li class="py-2">Functional Testing to make sure the browser displays expected outcomes</li>
+                    <li class="py-2">Unit Testing, Isolating small bits of code with single responsibility</li>
+                    <li class="py-2">Integration Testing, Combine 2 Unit tests to make sure the combination works correctly</li>
+                    <li class="py-2">Acceptance Testing. This is the last phase of testing, making sure the whole site works for both end-user and users.</li>
+                </ul>
+            </div>
         </div>
     </div>
 
