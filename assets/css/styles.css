@@ -758,6 +758,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
